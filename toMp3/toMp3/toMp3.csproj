@@ -4,6 +4,7 @@
     <OutputType>WinExe</OutputType>
     <TargetFramework>net5.0-windows</TargetFramework>
     <UseWindowsForms>true</UseWindowsForms>
+    <ApplicationIcon>download_downloading_data_storage_file_icon_190595.ico</ApplicationIcon>
   </PropertyGroup>
 
   <ItemGroup>

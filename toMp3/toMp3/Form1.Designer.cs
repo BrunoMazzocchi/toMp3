@@ -30,11 +30,11 @@ namespace toMp3
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
             this.btnSearch = new MaterialSkin.Controls.MaterialButton();
             this.btnVideo = new MaterialSkin.Controls.MaterialButton();
             this.btnDownload = new MaterialSkin.Controls.MaterialButton();
             this.txtURL = new MaterialSkin.Controls.MaterialTextBox();
-            this.label1 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -50,6 +50,17 @@ namespace toMp3
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1151, 522);
             this.panel1.TabIndex = 0;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Montserrat", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label1.ForeColor = System.Drawing.Color.MidnightBlue;
+            this.label1.Location = new System.Drawing.Point(268, 96);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(689, 73);
+            this.label1.TabIndex = 4;
+            this.label1.Text = "Youtube Downloader";
             // 
             // btnSearch
             // 
@@ -125,17 +136,6 @@ namespace toMp3
             this.txtURL.TabIndex = 0;
             this.txtURL.Text = "";
             this.txtURL.TrailingIcon = null;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Montserrat", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.ForeColor = System.Drawing.Color.MidnightBlue;
-            this.label1.Location = new System.Drawing.Point(268, 96);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(689, 73);
-            this.label1.TabIndex = 4;
-            this.label1.Text = "Youtube Downloader";
             // 
             // Form1
             // 

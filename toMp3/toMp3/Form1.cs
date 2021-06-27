@@ -128,7 +128,7 @@ namespace toMp3
                     path = saveFileDialog1.InitialDirectory;
                     name = saveFileDialog1.FileName;
                     SaveMP3(path, URL, name);
-                    MessageBox.Show(text: "Su audio se esta descargando");
+                    MessageBox.Show(text: "Su audio se descargo");
 
                 }
                 catch (Exception ex)
@@ -163,7 +163,7 @@ namespace toMp3
                     path = saveFileDialog1.InitialDirectory;
                     name = saveFileDialog1.FileName;
                     SaveMP4(path, URL, name);
-                    MessageBox.Show(text: "Su video se esta descargando");
+                    MessageBox.Show(text: "Su video se descargo");
 
 
                 }
